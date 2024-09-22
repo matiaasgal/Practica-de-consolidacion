@@ -33,6 +33,7 @@ function Reajuste() {
     window.addEventListener('resize', () => {
         if (window.innerWidth < 992) {
             const mostrarChats = document.querySelectorAll('.dentro-chat');
+
             mostrarChats.forEach(chat => {
                 if (chat.style.display === 'block') {
                     chat.style.display = 'none';
@@ -337,5 +338,4 @@ function verChats10() {
         verChats.style.display = 'block';
     }
 }
-
 

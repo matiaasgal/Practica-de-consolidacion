@@ -14,6 +14,9 @@ body {
 h1 { 
     font-size: 20px;
 }
+input:focus {
+    outline: 1px solid #4A90E2;
+}
 
 
 
@@ -64,6 +67,9 @@ h1 {
     border: 1px solid rgba(0, 0, 0, 0.801);
     border-radius: 120px;
     margin-right: 20px;
+}
+.busqueda-desktop {
+    display: none;
 }
 
 /* SECCION CHAT EN LINEA */
@@ -230,7 +236,21 @@ h1 {
     .container {
         border-right: 1px solid black;
         overflow-y: scroll;
-        height: 95vh;
+        height: 87vh;
+    }
+    .busqueda-desktop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #3433a169;
+        height: 59px;
+    }
+    .busqueda-desktop #buscar-contacto{
+        width: 90%;
+        height: 70%;
+        padding-left: 20px;
+        border-radius: 17px;
+        border: #000000;
     }
     .contenedor-de-chats {
         position: absolute;
