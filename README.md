@@ -1,1 +1,1 @@
-el codigo es mil veces mejorable pero ya no doy mas, tengo sueño
+el codigo es mil veces mejorable (en especial js) pero ya no doy mas, tengo sueño
